@@ -1,0 +1,5 @@
+$baseFontSize: 100;
+
+@function rem($fontSize) {
+    @return ($fontSize / $baseFontSize) * 1rem;
+}
